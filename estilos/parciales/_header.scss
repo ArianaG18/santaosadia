@@ -1,0 +1,17 @@
+@import "./variables";
+
+header{ 
+    &__inicio{    
+        height: 500px;
+        width: 100%;
+        text-align: $textalign;
+        letter-spacing: 0px; 
+        position: relative;
+        color: rgb(216, 206, 206);  
+        background-image: url("../sofiyoopacado.jpg");
+        background-size: 100% 100%;
+        object-fit: $o-fit;
+        padding: 150px 0px 0px;
+        margin: 0 0 20px;   
+     }  
+    }

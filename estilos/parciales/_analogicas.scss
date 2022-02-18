@@ -1,0 +1,45 @@
+@import "./variables";
+.analogicas{
+    object-fit: $o-fit;
+    align-content: space-around;
+    .transicion1{
+        animation-duration: 1s;
+        animation-name: aparecer;
+    }
+    .transicion2{
+        animation-duration: 1.5s;
+        animation-name: aparecer;
+    }
+    .transicion3{
+        animation-duration: 2s;
+        animation-name: aparecer;
+    }
+    .transicion4{
+        animation-duration: 3s;
+        animation-name: aparecer;
+    }
+    .transicion5{
+        animation-duration: 4s;
+        animation-name: aparecer;
+    }
+    .transicion6{
+        animation-duration: 5s;
+        animation-name: aparecer;
+    }
+    .transicion7{
+        animation-duration: 6s;
+        animation-name: aparecer;
+    }
+    .transicion8{
+        animation-duration: 7s;
+        animation-name: aparecer;
+    }
+    .transicion9 {
+        animation-duration: 8s;
+        animation-name: aparecer;
+    }
+    .transicion10 {
+        animation-duration: 9s;
+        animation-name: aparecer;
+    }
+}

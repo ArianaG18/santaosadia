@@ -1,0 +1,14 @@
+
+div{
+    a{
+       img{
+           object-fit: $o-fit;
+           align-content: space-around;
+           transition: all;
+        }
+        img:hover{
+            background-color: black;
+            opacity: 0.5;
+        }
+    } 
+}

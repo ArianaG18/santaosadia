@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.alexBrush{
+    font-family: 'Alex Brush', cursive;
+}
+.librebask{
+    font-family: 'Libre Baskerville', serif;
+}
+.fontBootstrap{
+    font-size: 55px;
+}
+
+.nav__inicio {
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 8px 0px;
+    margin: 0px;  
+    
+}
+
+.white {
+    color: rgb(216, 206, 206);
+    text-decoration: none;
+}
+
+.header__inicio{    
+    height: 190px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0px; 
+    position: relative;
+    color: rgb(216, 206, 206);  
+    background-image: url("../sofiyoopacado.jpg");
+    background-size: 100% 100%;
+    object-fit: cover;
+    padding: 70px 0px 70px;
+    margin: 0 0 20px;
+
+    
+}
+
+.img__inicio{
+    position: relative;
+    line-height: 0;
+}
+.img__title{
+    height: 0;
+    margin: 0; 
+    padding: 150px 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    border: rgb(216, 206, 206);
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: black;
+    opacity: 0,4;    
+    text-align: center;  
+    transition: opacity .4s linear;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+.img__title:hover{
+    opacity: 0,5;
+}
+ .img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    align-content: center;
+    align-items: center;
+    margin: 2px;
+    padding: 5px;
+ }
+
+
+h4{
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+/*grids*/
+#grids {
+    display: grid;
+    grid-template-columns: repeat(100%);
+    grid-template-rows: repeat(100%);
+    grid-template-areas: 
+    ".navGrids .navGrids .navGrids"
+    ".headerGrids .headerGrids .headerGrids"
+    ".imgsGrids .imgsGrids .imgsGrids"
+    ".imgdGrids .imgsGrids .imgsGrids"
+    ".imgdGrids .imgsGrids .imgsGrids"
+    ".footerGrids .footerGrids .footerGrids"
+    ;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.nav__redes {
+    color:rgb(216, 206, 206);
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 15px;
+    
+}
+
+.header__redes{
+    color: rgb(216, 206, 206);
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 300px;
+    font-size: 30px;
+}
+.redes{
+    background-image: url("../sofi.jpg");
+    object-fit: cover;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: black;
+    padding: 20px 20px 30px;
+    height: 100%;
+    font-size: 17px;
+    
+
+}
+.analogicas{
+      object-fit: cover;
+      align-content: space-around;
+  }
+.card-title{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+footer{
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+   
+}
+
+/*animaciones*/
+h1{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+   
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+div a img:hover{
+    background-color: black;
+    opacity: 0.5;
+    
+
+}
+
+.transicion1 {
+    animation-duration: 1s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.transicion2 {
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.transicion3 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.transicion4 {
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.transicion5 {
+    animation-duration: 4s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.transicion6 {
+    animation-duration: 5s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.transicion7 {
+    animation-duration: 6s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.transicion8 {
+    animation-duration: 7s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.transicion9 {
+    animation-duration: 8s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.transicion10 {
+    animation-duration: 9s;
+    animation-name: aparecer;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@media(min-width:720px){
+    
+.nav__inicio {
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0px;
+    margin: 0px;  
+}
+
+.header__inicio{    
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0px; 
+    position: relative;
+    color: rgb(216, 206, 206);  
+    background-image: url("../sofiyoopacado.jpg");
+    background-size: 100% 100%;
+    object-fit: cover;
+    padding: 150px 0px 0px;
+    margin: 0 0 20px;
+    
+}
+
+.nav__redes {
+    color: rgb(247, 211, 211);
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 300px;
+    font-size: 30px;
+    
+}
+
+.header__redes{
+    color: rgb(247, 211, 211);
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 300px;
+    font-size: 30px;
+}
+
+
+.img__inicio{
+    position: relative;
+    line-height: 0;
+}
+.img__title{
+    height: 0;
+    margin: 0; 
+    padding: 150px 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    border: rgb(216, 206, 206);
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: black;
+    opacity: 0;    
+    text-align: center;  
+    transition: opacity .4s linear;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+.img__title:hover{
+    opacity: 0.5;
+}
+ .img{
+    object-fit: cover;
+    width: 490px;
+    height: 300px;
+    align-content: center;
+    align-items: center;
+    margin: 2px;
+    
+ }
+
+
+.redes{
+    background-image: url("../sofi.jpg");
+    object-fit: cover;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: black;
+    padding: 20px 20px 30px;
+    height: 100%;
+    font-size: 17px;
+    
+}
+h1{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    font-size: 120px;
+    text-align: center;
+    margin: 0;
+   
+}
+
+h4{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+}
+
+ 
+
+
+
+
+
+
+/* <nav class="submenu">
+        <ul class="menu">
+            <li><a href=""class="librebask white">Menú</a>
+            <ul class="opcionesSubmenu">
+                <li><a href="../index.html" class="librebask white">Inicio</a></li>
+                <li><a href="./entradas/affection.html" class="librebask white">Affection</a></li>
+                <li><a href="./entradas/comatose.html" class="librebask white">Comatose</a></li>
+                <li><a href="./entradas/creaturecomfort.html" class="librebask white">Creature comfort</a></li>
+                <li><a href="./entradas/fever.html" class="librebask white">Fever</a></li>
+                <li><a href="./entradas/gottagetup.html" class="librebask white">Gotta get up</a></li>
+                <li><a href="./entradas/lethesunin.html" class="librebask white">Let the sun in</a></li>
+                <li><a href="./entradas/meditate.html" class="librebask white">Meditate</a></li>
+                <li><a href="./entradas/showmehow.html" class="librebask white">Show me how</a></li>
+                <li><a href="./entradas/wasntlooking.html" class="librebask white">Wasn't looking</a></li>
+
+            </ul>
+            </li>
+        </ul>
+    </nav>
+    
+    
+.menu{
+    border-style: hidden;
+    width: 60px;
+    height: 30px;
+    margin: 0px 30px ;
+    padding: 10px;
+    background-color: black;
+    font-size: 20px;
+  }
+  .menu li{
+    display: inline-block;
+    position: relative;
+  }
+  .opcionesSubmenu{
+    position: absolute;
+    display: none;
+    background-color: black;
+    top: 42px;
+    left: 0px;
+    
+    text-decoration: none;
+    line-height: 25px;  
+    font-size: 15px;
+  }
+
+  .opcionesSubmenu li{
+    display: block;
+  }
+  ul li:hover ul{
+    display: block;
+  }
+  .submenu{
+      background-color: black;
+      height: 100%;
+      margin: 0;
+  }
+    
+    */
